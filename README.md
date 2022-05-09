@@ -1,5 +1,5 @@
 [![cran version](http://www.r-pkg.org/badges/version/nimbleCarbon)](https://CRAN.R-project.org/package=nimbleCarbon) 
-[![development version](https://img.shields.io/badge/devel%20version-0.1.2-lightblue.svg)](https://github.com/ercrema/nimbleCarbon)
+[![development version](https://img.shields.io/badge/devel%20version-0.2.0-lightblue.svg)](https://github.com/ercrema/nimbleCarbon)
 [![R-CMD-check](https://github.com/ercrema/nimbleCarbon/workflows/R-CMD-check/badge.svg)](https://github.com/ercrema/nimbleCarbon/actions)
 # nimbleCarbon <img src="/logo/logo.png" align="right" />
 
@@ -10,6 +10,8 @@ The _nimbleCarbon_ package provides utility functions and bespoke probability di
 * Double-Exponential
 * Exponential-Logistic
 * Logistic-Exponential
+* Trapezoidal
+* Asymmetric Laplace
 
 Community contributions of additional growth models and features are welcome. For more information and tutorial please check the [vignette](https://htmlpreview.github.io/?https://github.com/ercrema/nimbleCarbon/blob/main/vignettes/nimble_carbon_vignette.html).
 
