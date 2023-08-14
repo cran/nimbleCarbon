@@ -17,7 +17,10 @@ modelPlot(
   alpha = 0.1,
   ylim = NULL,
   xlim = NULL,
+  xlab = NULL,
+  ylab = NULL,
   add = FALSE,
+  lwd = 1,
   ...
 )
 }
@@ -40,13 +43,19 @@ modelPlot(
 
 \item{col}{fill color for the quantile envelope (when \code{type=='envelope'}) or line colour (when \code{type=='spaghetti'}).}
 
-\item{alpha}{transparency value for each line in the spaghetti plot. Ignored when type is set to 'envelope'. Default is 0.1.}
+\item{alpha}{transparency value for each line in the spaghetti plot or the fill color in the 'envelope' plot.  Default is 1.}
 
 \item{ylim}{the y limits of the plot.}
 
 \item{xlim}{the x limits of the plot (in Cal BP).}
 
+\item{xlab}{a label for the x axis. Default is 'Years cal BP','Years BC/AD','Years BC', or 'Years AD' depending on data range and settings of \code{calendar}.}
+
+\item{ylab}{a label for the y axis. Default is 'Probability'.}
+
 \item{add}{whether or not the new graphic should be added to an existing plot.}
+
+\item{lwd}{line width. Default is 1.}
 
 \item{...}{additional arguments affecting the plot}
 }
